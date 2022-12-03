@@ -13,10 +13,10 @@ Please note: the API provides prices (use adjQuote values). To calculate day ove
 where day1$ -- day 1 price/ day2$ -- day2 price: 100* (day2$/day1$-1)
 Commit your code/configuration
 """
-import datetime
-import requests
-import json
 from collections import defaultdict
+import datetime
+import json
+import requests
 
 def topFiveMovers(tickers, rangeOfData):
 	"""
